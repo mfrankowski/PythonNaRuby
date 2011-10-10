@@ -22,7 +22,7 @@ def getChart(chartData, chartDataScaling="-500,5000", chartType="lc",chartLabel=
 
     print chartUrl
 
-def getElevation(path="36.578581,-118.291994|36.23998,-116.83171",samples="100",sensor="false", **elvtn_args):
+    def getElevation(path="36.578581,-118.291994|36.23998,-116.83171",samples="100",sensor="false", **elvtn_args):
       elvtn_args.update({
         'path': path,
         'samples': samples,
